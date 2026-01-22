@@ -1,0 +1,162 @@
+{
+  "name": "Better Dracula",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    "editor.background": "#000000",
+    "editorGutter.background": "#000000",
+    "editor.foreground": "#f8f8f2",
+    "sideBar.background": "#000000",
+    "sideBarSectionHeader.background": "#000000",
+    "activityBar.background": "#000000",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.inactiveBackground": "#000000",
+    "statusBar.background": "#000000",
+    "statusBar.noFolderBackground": "#000000",
+    "tab.activeBackground": "#000000",
+    "tab.inactiveBackground": "#000000",
+    "editorGroupHeader.tabsBackground": "#000000",
+    "panel.background": "#000000",
+    "list.activeSelectionBackground": "#222222",
+    "menu.background": "#000000",
+    "window.activeBorder": "#000000",
+    "window.inactiveBorder": "#000000",
+    "editorGroup.border": "#000000",
+    "editorGroupHeader.tabsBorder": "#000000",
+    "editorGroupHeader.border": "#000000",
+    "tab.border": "#000000",
+    "tab.activeBorder": "#000000",
+    "tab.activeBorderTop": "#000000",
+    "sideBar.border": "#000000",
+    "activityBar.border": "#000000",
+    "sideBarSectionHeader.border": "#000000",
+    "panel.border": "#000000",
+    "statusBar.border": "#000000",
+    "statusBar.focusBorder": "#000000",
+    "titleBar.border": "#000000",
+    "editorWidget.border": "#000000",
+    "editorHoverWidget.border": "#000000",
+    "menu.border": "#000000",
+    "menubar.selectionBorder": "#000000",
+    "breadcrumb.background": "#000000",
+    "input.border": "#000000",
+    "tab.activeForeground": "#FFFFFF"
+  },
+  "tokenColors": [
+    {
+      "name": "Storage type",
+      "scope": [
+        "support.attribute",
+        "meta.attribute",
+        "support.class",
+        "entity.name.type.class",
+        "entity.other.inherited-class",
+        "support.type.primitive",
+        "support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#8be9fd"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "storage.type.function",
+        "storage.type.ts",
+        "storage.modifier.async",
+        "storage.type.tsx",
+        "entity.name.tag",
+        "storage.modifier",
+        "storage.type.class",
+        "punctuation.definition.keyword",
+        "storage.type.svelte",
+        "storage.type",
+        "punctuation.definition.template-expression",
+        "punctuation.separator.dictionary.key-value"
+      ],
+      "settings": {
+        "foreground": "#ff79c6"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#f1fa8c"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "punctuation.definition.variable.svelte",
+        "meta.attribute",
+        "meta.tag.attributes",
+        "entity.name.type.svelte",
+        "entity.name.function.ts"
+      ],
+      "settings": {
+        "foreground": "#50fa7b"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": [
+        "constant",
+        "variable.other.constant.property",
+        "variable.language.this"
+      ],
+      "settings": {
+        "foreground": "#bd93f9"
+      }
+    },
+    {
+      "name": "Variable Parameter",
+      "scope": [
+        "variable.parameter",
+        "variable.other.property.php"
+      ],
+      "settings": {
+        "foreground": "#ffb86c"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#6a737d"
+      }
+    },
+    {
+      "name": "Text",
+      "scope": [
+        "text.svelte"
+      ],
+      "settings": {
+        "foreground": "#c0c0c0"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation.accessor",
+        "meta.template.expression"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    }
+  ],
+  "semanticTokenColors": {
+    "class": "#8be9fd",
+    "interface": "#8be9fd",
+    "type": "#8be9fd",
+    "variable": "#ffffff",
+    "property": "#ffffff"
+  }
+}
