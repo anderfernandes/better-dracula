@@ -52,7 +52,9 @@
         "entity.name.type.class",
         "entity.other.inherited-class",
         "support.type.primitive",
-        "support.type.property-name"
+        "support.type.property-name",
+        "support.function.var",
+        "entity.name.type.enum"
       ],
       "settings": {
         "foreground": "#8be9fd"
@@ -73,7 +75,8 @@
         "storage.type.svelte",
         "storage.type",
         "punctuation.definition.template-expression",
-        "punctuation.separator.dictionary.key-value"
+        "punctuation.separator.dictionary.key-value",
+        "punctuation.separator.key-value.html"
       ],
       "settings": {
         "foreground": "#ff79c6"
@@ -81,9 +84,7 @@
     },
     {
       "name": "Strings",
-      "scope": [
-        "string"
-      ],
+      "scope": ["string"],
       "settings": {
         "foreground": "#f1fa8c"
       }
@@ -93,10 +94,11 @@
       "scope": [
         "entity.name.function",
         "punctuation.definition.variable.svelte",
-        "meta.attribute",
+
         "meta.tag.attributes",
         "entity.name.type.svelte",
-        "entity.name.function.ts"
+        "entity.name.function.ts",
+        "entity.other.attribute-name.html"
       ],
       "settings": {
         "foreground": "#50fa7b"
@@ -117,7 +119,8 @@
       "name": "Variable Parameter",
       "scope": [
         "variable.parameter",
-        "variable.other.property.php"
+        "variable.other.property.php",
+        "entity.name.variable.parameter"
       ],
       "settings": {
         "foreground": "#ffb86c"
@@ -125,28 +128,21 @@
     },
     {
       "name": "Comments",
-      "scope": [
-        "comment"
-      ],
+      "scope": ["comment"],
       "settings": {
         "foreground": "#6a737d"
       }
     },
     {
       "name": "Text",
-      "scope": [
-        "text.svelte"
-      ],
+      "scope": ["text.svelte"],
       "settings": {
         "foreground": "#c0c0c0"
       }
     },
     {
       "name": "Punctuation",
-      "scope": [
-        "punctuation.accessor",
-        "meta.template.expression"
-      ],
+      "scope": ["punctuation.accessor", "meta.template.expression"],
       "settings": {
         "foreground": "#ffffff"
       }
