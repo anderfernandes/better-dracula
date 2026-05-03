@@ -142,11 +142,11 @@
     },
     {
       "name": "Punctuation",
-      "scope": ["punctuation.accessor", "meta.template.expression"],
+      "scope": ["punctuation.accessor", "meta.template.expression", "meta.tag.tsx", "meta.tag.without-attributes.tsx"],
       "settings": {
         "foreground": "#ffffff"
       }
-    }
+    },
   ],
   "semanticTokenColors": {
     "class": "#8be9fd",
